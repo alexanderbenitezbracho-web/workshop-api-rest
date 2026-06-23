@@ -1,5 +1,3 @@
----
-
 ## Creación y borrado de recursos vía API REST (OpenShift 4)
 
 Crear y eliminar Namespaces, Secrets, SealedSecrets, ConfigMaps, Deployments, NetworkPolicies, RBAC (Roles, RoleBindings, ClusterRoles), políticas de seguridad y VirtualMachines RHEL 9 usando la API REST de OpenShift/Kubernetes. Incluye script Bash de aprovisionamiento por proyecto y entorno (sin Deployment ni VirtualMachine).
