@@ -4,7 +4,7 @@
 
 Crear y eliminar Namespaces, Secrets, SealedSecrets, ConfigMaps, Deployments, NetworkPolicies, RBAC (Roles, RoleBindings, ClusterRoles), políticas de seguridad y VirtualMachines RHEL 9 usando la API REST de OpenShift/Kubernetes. Incluye script Bash de aprovisionamiento por proyecto y entorno (sin Deployment ni VirtualMachine).
 
-> **Referencia previa recomendada**: Antes de este capítulo, revisa `[../04-openshift-rest-api.md](../04-openshift-rest-api.md)`, donde se explica cómo obtener la URL del servidor (`oc whoami --show-server`), cómo verificar la API con `oc get --raw` y cómo usar el token de `oc whoami -t` con `curl`.
+**Referencia previa recomendada**: Antes de este capítulo, revisa `[../04-openshift-rest-api.md](../04-openshift-rest-api.md)`, donde se explica cómo obtener la URL del servidor (`oc whoami --show-server`), cómo verificar la API con `oc get --raw` y cómo usar el token de `oc whoami -t` con `curl`.
 
 Estructura de este módulo:
 
