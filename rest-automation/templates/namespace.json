@@ -1,0 +1,11 @@
+{
+  "apiVersion": "v1",
+  "kind": "Namespace",
+  "metadata": {
+    "name": "__NAMESPACE__",
+    "labels": {
+      "workshop.openshift.io/entorno": "__ENTORNO__",
+      "workshop.openshift.io/proyecto": "__PROYECTO__"
+    }
+  }
+}

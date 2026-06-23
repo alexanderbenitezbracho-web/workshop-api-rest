@@ -1,0 +1,9 @@
+{
+  "apiVersion": "project.openshift.io/v1",
+  "kind": "ProjectRequest",
+  "metadata": {
+    "name": "__NAMESPACE__"
+  },
+  "displayName": "__NAMESPACE__",
+  "description": "Workshop REST — entorno __ENTORNO__, proyecto __PROYECTO__"
+}
