@@ -49,7 +49,7 @@ oc auth can-i create projectrequests.project.openshift.io
 # debe responder: yes
 ```
 
-### 2.1. Crear un proyecto 
+### 2.1. Crear un proyecto
 
 Endpoint:
 
@@ -573,8 +573,6 @@ oc delete networkpolicy allow-nginx-rest deny-all-rest -n demo-rest
 ## 7. RBAC: Roles, RoleBindings y ClusterRoles
 
 En este capítulo ampliamos la gestión de permisos vía REST. El grupo de API es `rbac.authorization.k8s.io`.
-
-> **Referencia cruzada**: en `[../04-openshift-rest-api.md](../04-openshift-rest-api.md)` (sección 6) hay ejemplos adicionales de `PATCH` sobre roles y de `SelfSubjectAccessReview`.
 
 ### 7.1. Crear un `Role` en un namespace
 
@@ -1240,8 +1238,6 @@ oc delete vm rhel9-rest-demo -n demo-rest
 
 Los ejemplos `curl` de las secciones anteriores se pueden encadenar en un script que reciba **proyecto** y **entorno**, sustituya variables en plantillas JSON y cree los recursos base del namespace en orden.
 
-
-
 ```text
 rest-automation/
 ├── provision-project-rest.sh    # crea proyecto + recursos
@@ -1337,7 +1333,7 @@ El script lista con `oc get` los recursos creados en el namespace.
 
 ### 11.3. Resultado de prueba en clúster
 
-Ejecución validada con usuario `**user21`** (sin `cluster-admin`), entorno `**qa**`, proyecto `**usuario21**`:
+Ejecución validada con usuario `**user21`** (sin `cluster-admin`), entorno `**qa`**, proyecto `**usuario21`**:
 
 ```bash
 ./provision-project-rest.sh usuario21 qa
