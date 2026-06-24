@@ -63,11 +63,11 @@ curl -k -X POST \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d "{
-    \"apiVersion\": \"project.openshift.io/v1\",
-    \"kind\": \"ProjectRequest\",
-    \"metadata\": { \"name\": \"$NS\" },
-    \"displayName\": \"$NS\",
-    \"description\": \"Proyecto lab REST\"
+    "apiVersion": "project.openshift.io/v1",
+    "kind": "ProjectRequest",
+    "metadata": { "name": "usuario21-rest" },
+    "displayName": "usuario21-rest",
+    "description": "Proyecto lab REST"
   }"
 ```
 
@@ -1452,8 +1452,6 @@ El script detecta si debes usar `ProjectRequest` en lugar de `POST` directo al n
 ```bash
 ./destroy-project-rest.sh digital desarrollo
 ```
-
-
 
 ---
 
