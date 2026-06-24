@@ -1453,11 +1453,7 @@ El script detecta si debes usar `ProjectRequest` en lugar de `POST` directo al n
 ./destroy-project-rest.sh digital desarrollo
 ```
 
-### Fuera del alcance de este laboratorio (usuario normal)
 
-- Comprobar permisos con `SelfSubjectAccessReview` (sección 9.1).
-- Crear `ClusterRole` / `ClusterRoleBinding` (sección 7.4–7.5).
-- VirtualMachine RHEL 9 (sección 10).
 
 ---
 
